@@ -25,4 +25,16 @@
     target: '#sideNav'
   });
 
+  document.querySelector('.toggle-description').addEventListener('click', function() {
+    var ulElement = document.querySelector('.hidden');
+    if (ulElement.style.display === "none" || ulElement.style.display === "") {
+      ulElement.style.display = "block";
+    } else {
+      ulElement.style.display = "none";
+    }
+  });
+
 })(jQuery); // End of use strict
+
+
+

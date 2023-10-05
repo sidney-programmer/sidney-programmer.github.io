@@ -187,3 +187,12 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+.hidden {
+  display: none;
+}
+
+.toggle-description:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
